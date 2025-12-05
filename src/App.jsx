@@ -4,6 +4,10 @@ import Footer from './components/Footer';
 import LandingPage from './pages/LandingPage';
 import RegistroTarjeta from './pages/RegistroTarjeta';
 import RecargarSaldo from './pages/RecargarSaldo';
+import RutasVivo from './pages/RutasVivo';
+import HorariosRutas from './pages/HorariosRutas';
+import LoginPage from './pages/LoginPage';
+import PerfilUsuario from './pages/PerfilUsuario';
 
 function App() {
   return (
@@ -18,6 +22,10 @@ function App() {
             <Route path="/" element={<LandingPage />} />
             <Route path="/registro-tarjeta" element={<RegistroTarjeta />} />
             <Route path="/recargar" element={<RecargarSaldo />} />
+            <Route path="/rutas-vivo" element={<RutasVivo />} />
+            <Route path="/horarios" element={<HorariosRutas />} />
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/perfil" element={<PerfilUsuario />} />
             
             {/* Rutas Placeholder */}
             <Route path="/rutas-vivo" element={
